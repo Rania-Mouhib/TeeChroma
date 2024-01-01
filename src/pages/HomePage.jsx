@@ -3,9 +3,6 @@ import { Helmet } from "react-helmet";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import "../assets/css/theme.bundle.css";
-import "../assets/css/libs.bundle.css";
-
 import { useSnapshot } from "valtio";
 import state from "../store";
 
@@ -17,12 +14,10 @@ const HomePage = () => {
       {state.page === "home" && (
         <div>
           <div>
-            <Helmet>
+            {/* <Helmet>
               <script src="/assets/js/vendor.bundle.js"></script>
               <script src="/assets/js/theme.bundle.js"></script>
-              <link rel="stylesheet" href="/assets/css/theme.bundle.css" />
-              <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
-            </Helmet>
+            </Helmet> */}
           </div>
 
           {/* Navbar */}
