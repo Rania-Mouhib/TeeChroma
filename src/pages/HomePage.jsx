@@ -3,19 +3,14 @@ import { Helmet } from "react-helmet";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
+import "../assets/css/theme.bundle.css";
+import "../assets/css/libs.bundle.css";
+
 import { useSnapshot } from "valtio";
 import state from "../store";
 
 const HomePage = () => {
   const snap = useSnapshot(state);
-
-  const linkElement = document.createElement("link");
-
-  linkElement.rel = "stylesheet";
-  linkElement.href = "../assets/css/theme.bundle.css";
-
-  document.head.appendChild(linkElement);
-
 
   return (
     <>
@@ -25,7 +20,8 @@ const HomePage = () => {
             <Helmet>
               <script src="/assets/js/vendor.bundle.js"></script>
               <script src="/assets/js/theme.bundle.js"></script>
-              
+              <link rel="stylesheet" href="/assets/css/theme.bundle.css" />
+              <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
             </Helmet>
           </div>
 
@@ -63,7 +59,11 @@ const HomePage = () => {
                     it works
                   </a>
                   <div className="mt-4 pt-1 d-flex flex-column flex-md-row justify-content-center justify-content-lg-start">
-                    <a href="#" className="btn btn-success" role="button">
+                    <a
+                      className="btn btn-success"
+                      role="button"
+                      onClick={() => (state.page = "customizer")}
+                    >
                       Get started
                     </a>
                     <a

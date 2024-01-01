@@ -142,7 +142,7 @@ const Customizer = () => {
             <CustomButton
               type="filled"
               title="Go Back"
-              handleClick={() => (state.page = "intro")}
+              handleClick={() => (state.page = "home")}
               customStyles="w-fit px-4 py-2.5 font-bold text-sm"
             />
           </motion.div>
