@@ -64,7 +64,7 @@ const ContactPage = () => {
                           Browse our resources or submit a ticket to our support
                           team.
                         </span>
-                        <a href="#" className="fw-bolder">
+                        <a role="button" className="fw-bolder">
                           Visit help center →
                         </a>
                       </div>
@@ -99,7 +99,7 @@ const ContactPage = () => {
                           Ask about a custom pricing plan, our business
                           products, or request a demo.
                         </span>
-                        <a href="#" className="fw-bolder">
+                        <a role="button" className="fw-bolder">
                           Contact sales →
                         </a>
                       </div>
@@ -134,7 +134,7 @@ const ContactPage = () => {
                           Need help with our API, or assistance using our
                           landing page design tool?
                         </span>
-                        <a href="#" className="fw-bolder">
+                        <a role="button" className="fw-bolder">
                           Contact support →
                         </a>
                       </div>
@@ -231,25 +231,25 @@ const ContactPage = () => {
                       <ul className="list-unstyled">
                         <li className="d-flex align-items-center mb-2">
                           <i className="ri-github-line me-3 ri-lg" />{" "}
-                          <a className="text-muted" href="#">
+                          <a className="text-muted" role="button">
                             Github
                           </a>
                         </li>
                         <li className="d-flex align-items-center mb-2">
                           <i className="ri-facebook-line me-3 ri-lg" />{" "}
-                          <a className="text-muted" href="#">
+                          <a className="text-muted" role="button">
                             Facebook
                           </a>
                         </li>
                         <li className="d-flex align-items-center mb-2">
                           <i className="ri-twitter-line me-3 ri-lg" />{" "}
-                          <a className="text-muted" href="#">
+                          <a className="text-muted" role="button">
                             Twitter
                           </a>
                         </li>
                         <li className="d-flex align-items-center mb-2">
                           <i className="ri-codepen-line me-3 ri-lg" />{" "}
-                          <a className="text-muted" href="#">
+                          <a className="text-muted" role="button">
                             Codepen
                           </a>
                         </li>

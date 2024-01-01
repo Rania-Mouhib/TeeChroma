@@ -21,7 +21,7 @@ const Navbar = () => {
         >
           {/* Logo SVG Icon*/}
           <span className="f-w-7 d-block text-success me-2">
-            <svg
+            {/* <svg
               className="w-100"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 246.46 258.91"
@@ -31,10 +31,11 @@ const Navbar = () => {
                 fill="currentColor"
                 fillRule="evenodd"
               />
-            </svg>
+            </svg> */}
+            <img src="logo.png" alt="TeeChroma Logo" width="100" />
           </span>
           {/*/ Logo SVG Icon */}
-          <span className="fw-bold text-body">Sigma</span>
+          <span className="fw-bold text-body">TeeChroma</span>
         </a>
         {/* / Logo*/}
         {/* Mobile Menu Btn*/}
@@ -56,12 +57,20 @@ const Navbar = () => {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="./pricing.html">
+              <a
+                className="nav-link"
+                role="button"
+                onClick={() => (state.page = "princing")}
+              >
                 Pricing
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="./about.html">
+              <a
+                className="nav-link"
+                role="button"
+                onClick={() => (state.page = "about")}
+              >
                 About
               </a>
             </li>
@@ -80,7 +89,6 @@ const Navbar = () => {
               Login
             </a>
             <a
-              
               className="btn btn-primary ms-2"
               role="button"
               onClick={() => (state.page = "customizer")}

@@ -1,5 +1,7 @@
 import { Helmet } from "react-helmet";
 
+import heroImg from "/teechroma.png";
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -43,7 +45,6 @@ const HomePage = () => {
                     app or locally through our NPM package.
                   </h2>
                   <a
-                    href="#"
                     className="text-decoration-none text-primary fw-bolder d-flex fs-7 justify-content-center justify-content-lg-start"
                     data-bs-toggle="modal"
                     data-bs-target="#videoIframeModal"
@@ -62,9 +63,8 @@ const HomePage = () => {
                       Get started
                     </a>
                     <a
-                      href="#"
-                      className="btn btn-link text-decoration-none text-muted ms-2 bg-light-hover"
                       role="button"
+                      className="btn btn-link text-decoration-none text-muted ms-2 bg-light-hover"
                     >
                       Start free trial
                     </a>
@@ -90,19 +90,11 @@ const HomePage = () => {
                   className="col-12 col-lg-6 mt-5 mt-lg-0 align-self-stretch position-relative z-index-20"
                   data-aos="fade-in"
                 >
-                  <div className="d-flex h-100 bg-dark rounded-3 shadow-lg card">
-                    <div className="card-header border-white-10 border-1 py-4 d-flex align-items-center">
-                      <span className="f-w-2 f-h-2 block bg-danger rounded-circle me-2" />
-                      <span className="f-w-2 f-h-2 block bg-warning rounded-circle me-2" />
-                      <span className="f-w-2 f-h-2 block bg-info rounded-circle" />
+                  
+                    <div className="hero_img">
+                      <img src={heroImg} alt="" />
                     </div>
-                    <div className="card-body" style={{ minHeight: 280 }}>
-                      <code
-                        className="highlight fs-8"
-                        data-typed='{"backSpeed":2, "strings": ["$ npm install sigma<br/><span class=\"text-success\">Sigma package installed 👍</span><br/><br/>$ npm start design<br/><span class=\"text-success\">Start sharing your designs instantly...</span><br/><br/>$ npm launch design<br/><span class=\"text-success\">Push directly to one of our integrated hosts! 🚀</span>"]}'
-                      />
-                    </div>
-                  </div>
+                  
                 </div>
                 {/* / Hero Graphic*/}
               </div>
@@ -247,7 +239,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Bosch"
@@ -264,7 +256,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Smeg"
@@ -281,7 +273,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Sony"
@@ -298,7 +290,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Siemens"
@@ -315,7 +307,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Coca Cola"
@@ -332,7 +324,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Philips"
@@ -349,7 +341,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Samsung"
@@ -366,7 +358,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Netflix"
@@ -385,7 +377,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Bosch"
@@ -402,7 +394,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Smeg"
@@ -419,7 +411,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Sony"
@@ -436,7 +428,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Siemens"
@@ -453,7 +445,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Coca Cola"
@@ -470,7 +462,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Philips"
@@ -487,7 +479,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Samsung"
@@ -504,7 +496,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          href="#"
+                          role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Netflix"
@@ -674,9 +666,8 @@ const HomePage = () => {
                   {/* /Integration*/}
                 </div>
                 <a
-                  href="#"
-                  className="btn btn-white d-table mx-auto mt-7 w-100 w-md-auto"
                   role="button"
+                  className="btn btn-white d-table mx-auto mt-7 w-100 w-md-auto"
                 >
                   More about our integrations
                 </a>
@@ -2386,9 +2377,8 @@ const HomePage = () => {
                         during all stages of your landing page build.
                       </p>
                       <a
-                        href="#"
-                        className="btn btn-link px-0 me-3 fw-medium text-decoration-none mt-4"
                         role="button"
+                        className="btn btn-link px-0 me-3 fw-medium text-decoration-none mt-4"
                       >
                         Let's get started →
                       </a>
@@ -4083,9 +4073,8 @@ const HomePage = () => {
                         faster than your dev team.
                       </p>
                       <a
-                        href="#"
-                        className="btn btn-link px-0 me-3 fw-medium text-orange text-decoration-none mt-4"
                         role="button"
+                        className="btn btn-link px-0 me-3 fw-medium text-orange text-decoration-none mt-4"
                       >
                         Start your free trial →
                       </a>
@@ -4107,17 +4096,12 @@ const HomePage = () => {
                   What our customers are saying about us
                 </h4>
                 <div className="mt-3 d-flex justify-content-center flex-column flex-md-row">
-                  <a
-                    href="#"
-                    className="btn btn-primary mb-2 mb-md-0"
-                    role="button"
-                  >
+                  <a role="button" className="btn btn-primary mb-2 mb-md-0">
                     Ready to get started?
                   </a>
                   <a
-                    href="#"
-                    className="btn btn-link text-decoration-none text-muted ms-md-2 bg-light-hover"
                     role="button"
+                    className="btn btn-link text-decoration-none text-muted ms-md-2 bg-light-hover"
                   >
                     Start your free trial
                   </a>
@@ -4601,7 +4585,7 @@ const HomePage = () => {
                           The ultimate guide to event project management
                         </p>
                         <a
-                          href="#"
+                          role="button"
                           className="fw-medium fs-7 text-decoration-none link-cover"
                         >
                           Read more →
@@ -4625,7 +4609,7 @@ const HomePage = () => {
                           How to use Agile to implement Scrum method
                         </p>
                         <a
-                          href="#"
+                          role="button"
                           className="fw-medium fs-7 text-decoration-none link-cover"
                         >
                           Read more →
@@ -4649,7 +4633,7 @@ const HomePage = () => {
                           What is the best software version control?
                         </p>
                         <a
-                          href="#"
+                          role="button"
                           className="fw-medium fs-7 text-decoration-none link-cover"
                         >
                           Read more →
@@ -4660,7 +4644,7 @@ const HomePage = () => {
                   {/* / Blog Post*/}
                 </div>
                 <a
-                  href="#"
+                  role="button"
                   className="btn btn-white mx-auto mt-7 d-table fw-medium w-100 w-md-auto"
                 >
                   More articles →
@@ -4851,9 +4835,8 @@ const HomePage = () => {
                   {/* / Feature*/}
                 </div>
                 <a
-                  href="#"
-                  className="btn btn-primary d-table mx-auto mt-5 w-100 w-md-auto mt-lg-8 mb-3"
                   role="button"
+                  className="btn btn-primary d-table mx-auto mt-5 w-100 w-md-auto mt-lg-8 mb-3"
                 >
                   Start your trial
                 </a>
@@ -4909,11 +4892,12 @@ const HomePage = () => {
                   {/* / Stats*/}
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                    <a href="#">Sed lobortis nibh augue</a>, ut blandit{" "}
-                    <a href="#">lorem hendrerit non</a>. Donec finibus at lacus
-                    in efficitur nunc fringilla, dui quis vestibulum varius.
+                    <a role="button">Sed lobortis nibh augue</a>, ut blandit{" "}
+                    <a role="button">lorem hendrerit non</a>. Donec finibus at
+                    lacus in efficitur nunc fringilla, dui quis vestibulum
+                    varius.
                   </p>
-                  <a href="#" className="btn btn-success mt-4">
+                  <a role="button" className="btn btn-success mt-4">
                     Find out more
                   </a>
                 </div>

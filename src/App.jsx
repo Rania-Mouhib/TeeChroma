@@ -4,7 +4,8 @@ import Customizer from "./pages/Customizer";
 
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
-
+import AboutPage from "./pages/AboutPage";
+import PricingPage from "./pages/PricingPage";
 import { useSnapshot } from "valtio";
 
 import state from "./store";
@@ -26,6 +27,8 @@ function App() {
     <>
       <HomePage />
       <ContactPage />
+      <AboutPage />
+      <PricingPage />
     </>
   );
 }

@@ -1,4 +1,9 @@
+import state from "../store";
+import { useSnapshot } from "valtio";
+
 const Footer = () => {
+  const snap = useSnapshot(state);
+
   return (
     <>
       <footer className="bg-dark pt-10 pb-8  ">
@@ -26,21 +31,12 @@ const Footer = () => {
             {/* Footer Logo*/}
             <a
               className="d-flex align-items-center lh-1 text-white transition-opacity opacity-50-hover text-decoration-none mb-4 mb-md-0"
-              href="#"
+              role="button"
+              onClick={() => (state.page = "home")}
             >
               {/* Logo SVG Icon*/}
               <span className="f-w-7 d-block text-success me-2">
-                <svg
-                  className="w-100"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 246.46 258.91"
-                >
-                  <path
-                    d="M145.61,187.72,22.41,116.58,0,129.52l50.45,29.13L0,187.77l22.41,12.94s90.75,52.38,100.82,58.2l123.23-71.13L44.7,71.2l78.54-45.34,78.4,45.26-28,16.2-50.31-29L100.85,71.2l123.21,71.13,22.4-12.94L196,100.25q25.25-14.55,50.46-29.12L123.23,0,0,71.13,201.77,187.71l-78.52,45.41L44.8,187.78l28.06-16.19,50.34,29.07Z"
-                    fill="currentColor"
-                    fillRule="evenodd"
-                  />
-                </svg>
+                <img src="logo.png" alt="TeeChroma Logo" />
               </span>
               {/*/ Logo SVG Icon */}
               <span className="fw-bold">Sigma</span>
@@ -50,7 +46,7 @@ const Footer = () => {
             <ul className="list-unstyled d-flex align-items-center justify-content-end">
               <li className="ms-5">
                 <a
-                  href="#"
+                  role="button"
                   className="text-white text-decoration-none opacity-50-hover transition-opacity"
                 >
                   <i className="ri-facebook-circle-line ri-lg" />
@@ -58,7 +54,7 @@ const Footer = () => {
               </li>
               <li className="ms-5">
                 <a
-                  href="#"
+                  role="button"
                   className="text-white text-decoration-none opacity-50-hover transition-opacity"
                 >
                   <i className="ri-twitter-line ri-lg" />
@@ -66,7 +62,7 @@ const Footer = () => {
               </li>
               <li className="ms-5">
                 <a
-                  href="#"
+                  role="button"
                   className="text-white text-decoration-none opacity-50-hover transition-opacity"
                 >
                   <i className="ri-instagram-line ri-lg" />
@@ -74,7 +70,7 @@ const Footer = () => {
               </li>
               <li className="ms-5">
                 <a
-                  href="#"
+                  role="button"
                   className="text-white text-decoration-none opacity-50-hover transition-opacity"
                 >
                   <i className="ri-snapchat-line ri-lg" />
@@ -209,7 +205,7 @@ const Footer = () => {
         <div className="container">
           <div className="border-top pt-6 mt-7 border-white-10 d-flex flex-column flex-md-row justify-content-between align-items-center">
             <span className="small text-white opacity-50 mb-2 mb-md-0">
-              All rights reserved © Sigma 2021
+              All rights reserved © TeeChroma 2023 - by L&R
             </span>
             <span className="small text-white opacity-50">
               Terms of service | Security policy
