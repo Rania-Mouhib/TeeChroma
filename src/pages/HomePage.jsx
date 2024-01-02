@@ -27,10 +27,17 @@ const HomePage = () => {
           {/* / Navbar*/}
 
           {/* Main Section*/}
-          <main className="mt-0 ">
+          <main className="mt-0 "
+          style={{
+            backgroundImage: `url(${'bg.png'})`,
+            
+          }}
+          >
             {/* Page Content Goes Here */}
             {/* Hero Content*/}
-            <div className="container pt-4 pt-md-6 pt-lg-8 pb-8 pb-lg-10 position-relative">
+            <div className="container pt-4 pt-md-6 pt-lg-8 pb-8 pb-lg-10 position-relative"
+            
+            >
               <div className="row gx-10 align-items-center">
                 {/* Hero Text*/}
                 <div
@@ -638,8 +645,8 @@ const HomePage = () => {
                         </div>
                         <div className="lh-sm">
                           <small className="align-self-center fs-8">
-                            I like it. 👍 Can we try a different shade of orange
-                            for the nav?{" "}
+                            
+                          TeeChroma blew my mind!  Design playground, insane quality 👍 {" "}
                           </small>
                           <span className="fs-9 text-muted fw-medium mt-1 d-block">
                             12 mins ago
@@ -664,7 +671,7 @@ const HomePage = () => {
                         </div>
                         <div className="lh-1">
                           <small className="align-self-center fs-8 lh-sm">
-                            Orange updated in header and footer.
+                          Quality + Creativity explosion = TeeChroma.
                           </small>
                           <span className="fs-9 text-muted fw-medium mt-1 d-block">
                             5 mins ago
@@ -2295,18 +2302,18 @@ const HomePage = () => {
                   >
                     <div className="position-relative z-index-20">
                       <p className="mb-0 small fw-bolder tracking-wider text-uppercase text-primary">
-                        Build together
+                      Design Together
                       </p>
                       <h4 className="fs-1 fw-bold mb-4 mt-3">
-                        You need collaboration. We've got you covered.
+                      Build something amazing together.
                       </h4>
                       <p className="text-muted">
-                        Use our builder to collaborate with your team members
-                        during all stages of your landing page build.
+                      No Design Skills Needed. Create a Masterpiece in Minutes.
                       </p>
                       <a
                         role="button"
                         className="btn btn-link px-0 me-3 fw-medium text-decoration-none mt-4"
+                        onClick={() => (state.page = "customizer")}
                       >
                         Let's get started →
                       </a>
@@ -2327,7 +2334,7 @@ const HomePage = () => {
                     <picture className="position-relative z-index-20">
                       <img
                         className="img-fluid rounded-5"
-                        src="../assets/images/feature-2.jpeg"
+                        src="../assets/images/cover.png"
                         alt="HTML Bootstrap Template by Pixel Rocket"
                       />
                     </picture>
@@ -3955,7 +3962,7 @@ const HomePage = () => {
                         <picture className="position-relative z-index-0">
                           <img
                             className="img-fluid"
-                            src="../assets/images/logos/logo-12.svg"
+                            src="../assets/images/colour.png"
                             alt="HTML Bootstrap Template by Pixel Rocket"
                           />
                         </picture>
@@ -3964,7 +3971,7 @@ const HomePage = () => {
                         <picture className="position-relative z-index-0">
                           <img
                             className="img-fluid"
-                            src="../assets/images/logos/logo-10.svg"
+                            src="../assets/images/upload.png"	
                             alt="HTML Bootstrap Template by Pixel Rocket"
                           />
                         </picture>
@@ -3973,7 +3980,7 @@ const HomePage = () => {
                         <picture className="position-relative z-index-0">
                           <img
                             className="img-fluid"
-                            src="../assets/images/logos/logo-11.svg"
+                            src="../assets/images/ai.png"
                             alt="HTML Bootstrap Template by Pixel Rocket"
                           />
                         </picture>
@@ -3994,15 +4001,15 @@ const HomePage = () => {
                         Build faster
                       </p>
                       <h4 className="fs-1 fw-bold mb-4 mt-3">
-                        One-click deployment to your favourite host.
+                      Get your TeeChroma creation in a flash!
                       </h4>
                       <p className="text-muted">
-                        Use our templates to build and launch your landing page
-                        faster than your dev team.
+                      Design and launch your dream tee faster than a speeding click! TeeChroma puts you in the creative driver's seat
                       </p>
                       <a
                         role="button"
                         className="btn btn-link px-0 me-3 fw-medium text-orange text-decoration-none mt-4"
+                        onClick={() => (state.page = "customizer")}
                       >
                         Start your free trial →
                       </a>
@@ -4024,8 +4031,10 @@ const HomePage = () => {
                   What our customers are saying about us
                 </h4>
                 <div className="mt-3 d-flex justify-content-center flex-column flex-md-row">
-                  <a role="button" className="btn btn-primary mb-2 mb-md-0">
-                    Ready to get started?
+                  <a role="button" className="btn btn-primary mb-2 mb-md-0"
+                  onClick={() => (state.page = "customizer")}
+                  >
+                    Ready to get started ?
                   </a>
                 </div>
               </div>
@@ -4584,184 +4593,50 @@ const HomePage = () => {
                   Explore our features
                 </h4>
                 <p className="text-muted text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Unleash your creativity.
                 </p>
                 <div className="row gx-10 gy-7 mt-4">
                   {/* Feature*/}
                   <div className="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-start">
                     <span className="f-w-8 d-block text-primary">
-                      <svg
-                        className="w-100"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <polygon points="12 2 2 7 12 12 22 7 12 2" />
-                        <polyline points="2 17 12 22 22 17" />
-                        <polyline opacity=".4" points="2 12 12 17 22 12" />
-                      </svg>
+                      <img src="/assets/images/colour.png" alt="" />
                     </span>
-                    <p className="fw-medium mb-1 mt-3 fs-5">Tasks planner</p>
+                    <p className="fw-medium mb-1 mt-3 fs-5">Color Patterns</p>
                     <span className="text-muted fs-7">
-                      Plan and schedule your weekly tasks on web or mobile
-                      through our desktop or mobile apps.
+                    Find Your Perfect Palette: Choose from vibrant color combinations or create your own unique blend.
                     </span>
                   </div>
                   {/* / Feature*/}
                   {/* Feature*/}
                   <div className="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-start">
                     <span className="f-w-8 d-block text-primary">
-                      <svg
-                        className="w-100"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <rect
-                          x={4}
-                          y={4}
-                          width={16}
-                          height={16}
-                          rx={2}
-                          ry={2}
-                        />
-                        <rect opacity=".3" x={9} y={9} width={6} height={6} />
-                        <line x1={9} y1={1} x2={9} y2={4} />
-                        <line x1={15} y1={1} x2={15} y2={4} />
-                        <line x1={9} y1={20} x2={9} y2={23} />
-                        <line x1={15} y1={20} x2={15} y2={23} />
-                        <line x1={20} y1={9} x2={23} y2={9} />
-                        <line x1={20} y1={14} x2={23} y2={14} />
-                        <line x1={1} y1={9} x2={4} y2={9} />
-                        <line x1={1} y1={14} x2={4} y2={14} />
-                      </svg>
+                    <img src="/assets/images/upload.png" alt="" />
                     </span>
                     <p className="fw-medium mb-1 mt-3 fs-5">
-                      Team collaborations
+                    Image-Based Designs
                     </p>
                     <span className="text-muted fs-7">
-                      Invite unlimited team members to view, edit, comment and
-                      create landing pages with you.
+                    Upload Your Inspiration: Transform your favorite images into one-of-a-kind t-shirt designs.
                     </span>
                   </div>
                   {/* / Feature*/}
                   {/* Feature*/}
                   <div className="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-start">
                     <span className="f-w-8 d-block text-primary">
-                      <svg
-                        className="w-100"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <circle cx={18} cy={18} r={3} />
-                        <circle cx={6} cy={6} r={3} />
-                        <path opacity=".4" d="M13 6h3a2 2 0 0 1 2 2v7" />
-                        <line opacity=".4" x1={6} y1={9} x2={6} y2={21} />
-                      </svg>
+                    <img src="/assets/images/ai.png" alt="" />
                     </span>
-                    <p className="fw-medium mb-1 mt-3 fs-5">Version control</p>
+                    <p className="fw-medium mb-1 mt-3 fs-5">AI-Generated Designs</p>
                     <span className="text-muted fs-7">
-                      Full integration with Git, GitLab and Bitbucket to easily
-                      allow version control.
+                    Let AI Be Your Muse: Generate unique designs with the help of our innovative AI.
                     </span>
                   </div>
                   {/* / Feature*/}
-                  {/* Feature*/}
-                  <div className="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-start">
-                    <span className="f-w-8 d-block text-primary">
-                      <svg
-                        className="w-100"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                        <circle cx={9} cy={7} r={4} />
-                        <path opacity=".4" d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                        <path opacity=".4" d="M16 3.13a4 4 0 0 1 0 7.75" />
-                      </svg>
-                    </span>
-                    <p className="fw-medium mb-1 mt-3 fs-5">AB testing</p>
-                    <span className="text-muted fs-7">
-                      Create unlimited AB tests for your landing pages and make
-                      the designs public or private.
-                    </span>
-                  </div>
-                  {/* / Feature*/}
-                  {/* Feature*/}
-                  <div className="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-start">
-                    <span className="f-w-8 d-block text-primary">
-                      <svg
-                        className="w-100"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9" />
-                        <polyline
-                          opacity=".4"
-                          points="13 11 9 17 15 17 11 23"
-                        />
-                      </svg>
-                    </span>
-                    <p className="fw-medium mb-1 mt-3 fs-5">One-click export</p>
-                    <span className="text-muted fs-7">
-                      Export your completed landing pages to HTML in both
-                      Bootstrap and Tailwind CSS format.
-                    </span>
-                  </div>
-                  {/* / Feature*/}
-                  {/* Feature*/}
-                  <div className="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-start">
-                    <span className="f-w-8 d-block text-primary">
-                      <svg
-                        className="w-100"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <circle opacity=".4" cx={12} cy={12} r={2} />
-                        <path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"></path>
-                      </svg>
-                    </span>
-                    <p className="fw-medium mb-1 mt-3 fs-5">
-                      Mobile application
-                    </p>
-                    <span className="text-muted fs-7">
-                      Download our mobile app and continue to work on your
-                      landing pages through the mobile app.
-                    </span>
-                  </div>
-                  {/* / Feature*/}
+                  
                 </div>
                 <a
                   role="button"
                   className="btn btn-primary d-table mx-auto mt-5 w-100 w-md-auto mt-lg-8 mb-3"
+                  onClick={() => (state.page = "customizer")}
                 >
                   Start your trial
                 </a>
@@ -4791,15 +4666,15 @@ const HomePage = () => {
                   <div className="my-5 d-none d-md-flex align-items-start justify-content-between">
                     <div>
                       <span className="display-3 fw-bold text-primary d-block">
-                        12
+                        10
                       </span>
                       <span className="d-block fs-9 fw-bolder tracking-wide text-uppercase text-muted">
-                        Locations
+                      Countries
                       </span>
                     </div>
                     <div>
                       <span className="display-3 fw-bold text-primary d-block">
-                        75K
+                        80K
                       </span>
                       <span className="d-block fs-9 fw-bolder tracking-wide text-uppercase text-muted">
                         Customers
@@ -4807,7 +4682,7 @@ const HomePage = () => {
                     </div>
                     <div>
                       <span className="display-3 fw-bold text-primary d-block">
-                        160
+                        200
                       </span>
                       <span className="d-block fs-9 fw-bolder tracking-wide text-uppercase text-muted">
                         Staff
@@ -4818,7 +4693,9 @@ const HomePage = () => {
                   <p>
                     At Teecroma, we're not just a platform; we're the creators of personalized football passion, born from the fusion of 3D modeling and artificial intelligence. Our mission is to redefine how fans connect with their favorite sport through a seamless and interactive space for designing and customizing football jerseys.
                   </p>
-                  <a role="button" className="btn btn-success mt-4">
+                  <a role="button" className="btn btn-success mt-4"
+                  onClick={() => (state.page = "about")}
+                  >
                     Find out more
                   </a>
                 </div>

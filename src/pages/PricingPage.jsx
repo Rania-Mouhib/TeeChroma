@@ -75,7 +75,10 @@ const PricingPage = () => {
                     credit card required, no commitment required. Then upgrade
                     your account after that when you're ready.
                   </p>
-                  <a href="#" className="btn btn-white mt-4 w-100 w-md-auto">
+                  <a className="btn btn-white mt-4 w-100 w-md-auto"
+                  role="button"
+                  onClick={() => (state.page = "customizer")}
+                  >
                     Start your trial
                   </a>
                 </div>
@@ -121,30 +124,17 @@ const PricingPage = () => {
                     </span>
                   </div>
                   <div className="f-h-20 px-4 px-md-7 d-flex justify-content-start align-items-center border-bottom">
-                    Templates
+                  Prompts
                   </div>
                   <div className="f-h-20 px-4 px-md-7 d-flex justify-content-start align-items-center border-bottom">
-                    Emails
+                    Designs
                   </div>
-                  <div className="f-h-20 px-4 px-md-7 d-flex justify-content-start align-items-center border-bottom">
-                    <span
-                      className="tooltip-trigger"
-                      data-bs-toggle="tooltip"
-                      data-bs-placement="top"
-                      title="The amount of bandwidth available for each package"
-                    >
-                      Bandwidth
-                    </span>
-                  </div>
+                  
                   <div className="f-h-20 px-4 px-md-7 d-flex justify-content-start align-items-center border-bottom">
                     Support
                   </div>
-                  <div className="f-h-20 px-4 px-md-7 d-flex justify-content-start align-items-center border-bottom">
-                    Integrations
-                  </div>
-                  <div className="f-h-20 px-4 px-md-7 d-flex justify-content-start align-items-center border-bottom">
-                    Backups
-                  </div>
+                  
+                  
                   <div className="f-h-24 px-4 px-md-7 d-flex justify-content-center align-items-center"></div>
                   {/* Column Rows*/}
                 </div>
@@ -194,30 +184,18 @@ const PricingPage = () => {
                       week
                     </span>
                   </div>
-                  <div className="f-h-20 px-4 px-md-7 d-flex justify-content-center align-items-center border-bottom">
-                    <span>
-                      100GB{" "}
-                      <span className="d-lg-none d-inline">bandwidth</span>
-                    </span>
-                  </div>
+                  
                   <div className="f-h-20 px-4 px-md-7 d-flex justify-content-center align-items-center border-bottom">
                     <span>
                       Email <span className="d-lg-none d-inline">support</span>
                     </span>
                   </div>
-                  <div className="f-h-20 px-4 px-md-7 d-flex justify-content-center align-items-center border-bottom">
-                    <span>
-                      15{" "}
-                      <span className="d-lg-none d-inline">integrations</span>
-                    </span>
-                  </div>
-                  <div className="f-h-20 px-4 px-md-7 d-flex justify-content-center align-items-center border-bottom">
-                    <span>
-                      Weekly <span className="d-lg-none d-inline">backups</span>
-                    </span>
-                  </div>
+                  
+                  
                   <div className="f-h-24 px-4 px-md-7 d-flex justify-content-center align-items-center">
-                    <a href="#" className="btn btn-primary w-100">
+                    <a
+                    role="button"
+                     className="btn btn-primary w-100">
                       Get started
                     </a>
                   </div>
@@ -269,31 +247,17 @@ const PricingPage = () => {
                       per week
                     </span>
                   </div>
-                  <div className="f-h-20 px-4 px-md-7 d-flex justify-content-center align-items-center border-bottom">
-                    <span>
-                      Unlimited{" "}
-                      <span className="d-lg-none d-inline">bandwith</span>
-                    </span>
-                  </div>
+                  
                   <div className="f-h-20 px-4 px-md-7 d-flex justify-content-center align-items-center border-bottom">
                     <span>
                       Email, Telephone{" "}
                       <span className="d-lg-none d-inline">support</span>
                     </span>
                   </div>
-                  <div className="f-h-20 px-4 px-md-7 d-flex justify-content-center align-items-center border-bottom">
-                    <span>
-                      15{" "}
-                      <span className="d-lg-none d-inline">integrations</span>
-                    </span>
-                  </div>
-                  <div className="f-h-20 px-4 px-md-7 d-flex justify-content-center align-items-center border-bottom">
-                    <span>
-                      Hourly <span className="d-lg-none d-inline">backups</span>
-                    </span>
-                  </div>
+                  
+                  
                   <div className="f-h-24 px-4 px-md-7 d-flex justify-content-center align-items-center">
-                    <a href="#" className="btn btn-primary w-100">
+                    <a role="button" className="btn btn-primary w-100">
                       Get started
                     </a>
                   </div>
@@ -311,7 +275,7 @@ const PricingPage = () => {
                       Our Enterprise package is custom-built per client - ideal
                       for large businesses.
                     </p>
-                    <a href="#" className="btn btn-white" role="button">
+                    <a role="button" className="btn btn-white" role="button">
                       Discuss your requirements
                     </a>
                   </div>
@@ -442,139 +406,7 @@ const PricingPage = () => {
               {/* / Company Logos*/}
             </div>
             {/* FAQs*/}
-            <div className="py-10 bg-light">
-              <div className="container">
-                <h3 className="text-center fs-1 mb-3 fw-bold">
-                  Frequently asked questions
-                </h3>
-                <div className="mx-auto mt-5 col-12 col-md-8 col-lg-6 col-xl-5">
-                  <div className="accordion" id="accordionExample">
-                    {/* Accordion*/}
-                    <div className="accordion-item">
-                      <h2 className="accordion-header" id="headingOne">
-                        <button
-                          className="accordion-button fw-medium py-4 collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseOne"
-                          aria-expanded="false"
-                          aria-controls="collapseOne"
-                        >
-                          Are there any restrictions on the trial offer?
-                        </button>
-                      </h2>
-                      <div
-                        id="collapseOne"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Nunc et sollicitudin libero. Etiam eget sollicitudin
-                          eros. In non mauris feugiat, gravida dolor ac, gravida
-                          diam. Suspendisse elementum hendrerit massa, in
-                          molestie tortor pretium vel. Donec sed finibus libero.
-                          Cras at diam quis lacus interdum pellentesque. Aenean
-                          at luctus est. Phasellus facilisis neque luctus nibh
-                          venenatis, eu viverra odio interdum. Morbi aliquam mi
-                          in ultrices gravida. Nunc quis sodales mauris.
-                        </div>
-                      </div>
-                    </div>
-                    {/* / Accordion*/}
-                    {/* Accordion*/}
-                    <div className="accordion-item">
-                      <h2 className="accordion-header" id="headingTwo">
-                        <button
-                          className="accordion-button fw-medium py-4 collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseTwo"
-                          aria-expanded="false"
-                          aria-controls="collapseTwo"
-                        >
-                          What are the cancellation terms?
-                        </button>
-                      </h2>
-                      <div
-                        id="collapseTwo"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Donec cursus consequat nulla, a imperdiet eros
-                          pulvinar nec. Aenean iaculis massa vel aliquet
-                          iaculis. Vivamus orci metus, dignissim sed elit ac,
-                          euismod consectetur dui. Mauris at enim magna.
-                          Suspendisse ut urna vitae odio malesuada tempor vitae
-                          egestas ex.
-                        </div>
-                      </div>
-                    </div>
-                    {/* Accordion*/}
-                    <div className="accordion-item">
-                      <h2 className="accordion-header" id="headingThree">
-                        <button
-                          className="accordion-button fw-medium py-4 collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          What payment methods does TeeChroma accept?
-                        </button>
-                      </h2>
-                      <div
-                        id="collapseThree"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Sed a tortor suscipit urna efficitur fringilla.
-                          Integer aliquam erat ut eros egestas, eu laoreet elit
-                          pellentesque. Nunc at urna vel ligula blandit
-                          placerat.
-                        </div>
-                      </div>
-                    </div>
-                    {/* / Accordion*/}
-                    {/* Accordion*/}
-                    <div className="accordion-item">
-                      <h2 className="accordion-header" id="headingThree">
-                        <button
-                          className="accordion-button fw-medium py-4 collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseFour"
-                          aria-expanded="false"
-                          aria-controls="collapseFour"
-                        >
-                          Can I upgrade after signing up?
-                        </button>
-                      </h2>
-                      <div
-                        id="collapseFour"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Maecenas vitae metus urna. Morbi mattis, nulla at
-                          tempus viverra, urna eros tincidunt risus, porttitor
-                          sollicitudin leo ligula ut felis. Integer pharetra,
-                          dui nec tincidunt posuere, quam est efficitur nisl,
-                          non porta justo diam molestie sem.
-                        </div>
-                      </div>
-                    </div>
-                    {/* / Accordion*/}
-                  </div>
-                </div>
-              </div>
-            </div>
+            
             {/* / FAQs*/}
             {/* /Page Content */}
             {/* / Main Section*/}

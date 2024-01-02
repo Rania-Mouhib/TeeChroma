@@ -25,123 +25,16 @@ const ContactPage = () => {
                   <div className="text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto position-relative z-index-20">
                     <h1 className="display-3 fw-bold mb-3">Contact us</h1>
                     <p className="text-muted lead mb-0">
-                      Select a category below to email the correct support team,
-                      or alternatively, send us a general message using the form
-                      below.
+                    Got questions? We've got answers. Contact us anytime!
                     </p>
                   </div>
                 </div>
               </header>
               {/* / Page Title*/}
               {/* Page Content Goes Here */}
-              <div className="container position-relative z-index-20 py-7">
+              <div className="container position-relative z-index-20">
                 {/* Support Categories*/}
-                <div className="row g-5">
-                  {/* Single Category*/}
-                  <div className="col-12 col-lg-4">
-                    <div className="card rounded shadow-lg h-100">
-                      <div className="card-body d-flex align-items-center flex-column justify-content-center text-center p-5">
-                        <span className="f-w-10 d-block text-primary">
-                          <svg
-                            className="w-100"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          >
-                            <polygon points="12 2 2 7 12 12 22 7 12 2" />
-                            <polyline points="2 17 12 22 22 17" />
-                            <polyline opacity=".4" points="2 12 12 17 22 12" />
-                          </svg>
-                        </span>
-                        <p className="fw-medium mb-1 my-4 fs-5">
-                          Knowledgebase
-                        </p>
-                        <span className="text-muted fs-7 mb-4">
-                          Browse our resources or submit a ticket to our support
-                          team.
-                        </span>
-                        <a role="button" className="fw-bolder">
-                          Visit help center →
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  {/* / Single Category*/}
-                  {/* Single Category*/}
-                  <div className="col-12 col-lg-4">
-                    <div className="card rounded shadow-lg h-100">
-                      <div className="card-body d-flex align-items-center flex-column justify-content-center text-center p-5">
-                        <span className="f-w-10 d-block text-primary">
-                          <svg
-                            className="w-100"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          >
-                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                            <circle cx={9} cy={7} r={4} />
-                            <path opacity=".4" d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                            <path opacity=".4" d="M16 3.13a4 4 0 0 1 0 7.75" />
-                          </svg>
-                        </span>
-                        <p className="fw-medium mb-1 my-4 fs-5">
-                          Contact sales
-                        </p>
-                        <span className="text-muted fs-7 mb-4">
-                          Ask about a custom pricing plan, our business
-                          products, or request a demo.
-                        </span>
-                        <a role="button" className="fw-bolder">
-                          Contact sales →
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  {/* / Single Category*/}
-                  {/* Single Category*/}
-                  <div className="col-12 col-lg-4">
-                    <div className="card rounded shadow-lg h-100">
-                      <div className="card-body d-flex align-items-center flex-column justify-content-center text-center p-5">
-                        <span className="f-w-12 d-block text-primary">
-                          <svg
-                            className="w-100"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          >
-                            <circle cx={18} cy={18} r={3} />
-                            <circle cx={6} cy={6} r={3} />
-                            <path opacity=".4" d="M13 6h3a2 2 0 0 1 2 2v7" />
-                            <line opacity=".4" x1={6} y1={9} x2={6} y2={21} />
-                          </svg>
-                        </span>
-                        <p className="fw-medium mb-1 my-4 fs-5">
-                          Technical Support
-                        </p>
-                        <span className="text-muted fs-7 mb-4">
-                          Need help with our API, or assistance using our
-                          landing page design tool?
-                        </span>
-                        <a role="button" className="fw-bolder">
-                          Contact support →
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  {/* / Single Category*/}
-                </div>
+                
                 {/* Support Categories*/}
                 {/* Contact Details & Form*/}
                 <div className="row gx-10 my-10 pt-5">
@@ -162,7 +55,7 @@ const ContactPage = () => {
                             type="text"
                             className="form-control"
                             name="name"
-                            placeholder="John Doe"
+                            placeholder="Lahcen Ezzara"
                           />
                         </div>
                         {/* / Name*/}
@@ -173,18 +66,18 @@ const ContactPage = () => {
                             type="email"
                             className="form-control"
                             name="email"
-                            placeholder="john@doe.com"
+                            placeholder="lahcen@teechroma.com"
                           />
                         </div>
                         {/* / Email*/}
                         {/* Company Name*/}
                         <div className="col-12 col-md-6">
-                          <label className="form-label">Company</label>
+                          <label className="form-label">Country</label>
                           <input
                             type="text"
                             className="form-control"
                             name="company"
-                            placeholder="ACME Limited"
+                            placeholder="Morocco"
                           />
                         </div>
                         {/* / Company Name*/}
@@ -195,7 +88,7 @@ const ContactPage = () => {
                             type="text"
                             className="form-control"
                             name="telephone"
-                            placeholder="+44 (0)208 445 678"
+                            placeholder="+212 6 00 00 00 00"
                           />
                         </div>
                         {/* / Telephone*/}
@@ -230,9 +123,9 @@ const ContactPage = () => {
                       </p>
                       <ul className="list-unstyled">
                         <li className="d-flex align-items-center mb-2">
-                          <i className="ri-github-line me-3 ri-lg" />{" "}
+                          <i className="ri-instagram-line me-3 ri-lg" />{" "}
                           <a className="text-muted" role="button">
-                            Github
+                            Instagram
                           </a>
                         </li>
                         <li className="d-flex align-items-center mb-2">
@@ -248,9 +141,9 @@ const ContactPage = () => {
                           </a>
                         </li>
                         <li className="d-flex align-items-center mb-2">
-                          <i className="ri-codepen-line me-3 ri-lg" />{" "}
+                          <i className="ri-youtube-line me-3 ri-lg" />{" "}
                           <a className="text-muted" role="button">
-                            Codepen
+                            YouTube
                           </a>
                         </li>
                       </ul>
@@ -259,8 +152,7 @@ const ContactPage = () => {
                       Our head office
                     </p>
                     <p>
-                      33 Sandhurst Road, Canterbury Avenue, Central London, SM3
-                      4RT, United Kingdom
+                    150 Avenue Nile Sidi Othman, Casablanca 20670, Morocco
                     </p>
                   </div>
                   {/* / Contact Details*/}

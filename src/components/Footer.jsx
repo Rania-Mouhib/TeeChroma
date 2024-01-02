@@ -18,6 +18,7 @@ const Footer = () => {
                 href="#"
                 className="btn btn-primary mt-3 w-100 w-md-auto"
                 role="button"
+                onClick={() => (state.page = "customizer")}
               >
                 Start free trial
               </a>
@@ -88,32 +89,28 @@ const Footer = () => {
               <ul className="list-unstyled footer-nav">
                 <li>
                   <a href="#">
-                    Page builder{" "}
+                    T-shirt Customizer{" "}
                     <span className="badge bg-danger rounded ms-2 align-middle">
+                      Get it
+                    </span>
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="#">Color Patterns</a>
+                </li>
+                <li>
+                  <a href="#">Image-Based Designs</a>
+                </li>
+                <li>
+                  <a href="#">
+                  AI-Generated Designs{" "}
+                    <span className="badge bg-primary rounded ms-2 align-middle">
                       new
                     </span>
                   </a>
                 </li>
-                <li>
-                  <a href="#">AI generator</a>
-                </li>
-                <li>
-                  <a href="#">Landing page templates</a>
-                </li>
-                <li>
-                  <a href="#">Sketch plugin</a>
-                </li>
-                <li>
-                  <a href="#">
-                    Figma addon{" "}
-                    <span className="badge bg-primary rounded ms-2 align-middle">
-                      beta
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">XD integration</a>
-                </li>
+                
               </ul>
             </div>
             {/* /Menu*/}
@@ -126,15 +123,11 @@ const Footer = () => {
                 <li>
                   <a href="#">About us</a>
                 </li>
-                <li>
-                  <a href="#">Our core values</a>
-                </li>
+                
                 <li>
                   <a href="#">Join our team</a>
                 </li>
-                <li>
-                  <a href="#">Our blog</a>
-                </li>
+                
                 <li>
                   <a href="#">Latest news</a>
                 </li>
@@ -159,15 +152,11 @@ const Footer = () => {
                 <li>
                   <a href="#">Register</a>
                 </li>
-                <li>
-                  <a href="#">Help &amp; support</a>
-                </li>
+                
                 <li>
                   <a href="#">Contact us</a>
                 </li>
-                <li>
-                  <a href="#">Forgotten password</a>
-                </li>
+                
               </ul>
             </div>
             {/* /Menu*/}
@@ -186,12 +175,7 @@ const Footer = () => {
                 <li>
                   <a href="#">Cookie policy</a>
                 </li>
-                <li>
-                  <a href="#">Refund policy</a>
-                </li>
-                <li>
-                  <a href="#">GDPR information</a>
-                </li>
+                
                 <li>
                   <a href="#">Company legals</a>
                 </li>

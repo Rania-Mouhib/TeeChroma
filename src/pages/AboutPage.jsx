@@ -21,9 +21,7 @@ const AboutPage = () => {
                 <div className="text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto position-relative z-index-20">
                   <h1 className="display-3 fw-bold mb-3">About us</h1>
                   <p className="text-muted lead mb-0">
-                    Launched in 2017, TeeChroma is an online template design
-                    tool with a mission to make landing page design accessible
-                    to everyone in the world.
+                  Launched in 2023, TeeChroma is an online Customize design tool with a mission to make t-shirt designing accessible to everyone in the world.
                   </p>
                 </div>
               </div>
@@ -114,15 +112,15 @@ const AboutPage = () => {
                 <div className="my-5 d-none d-md-flex align-items-start justify-content-between">
                   <div>
                     <span className="display-3 fw-bold text-primary d-block">
-                      12
+                    10
                     </span>
                     <span className="d-block fs-9 fw-bolder tracking-wide text-uppercase text-muted">
-                      Locations
+                    COUNTRIES
                     </span>
                   </div>
                   <div>
                     <span className="display-3 fw-bold text-primary d-block">
-                      75K
+                    80K
                     </span>
                     <span className="d-block fs-9 fw-bolder tracking-wide text-uppercase text-muted">
                       Customers
@@ -130,7 +128,7 @@ const AboutPage = () => {
                   </div>
                   <div>
                     <span className="display-3 fw-bold text-primary d-block">
-                      160
+                    200
                     </span>
                     <span className="d-block fs-9 fw-bolder tracking-wide text-uppercase text-muted">
                       Staff
@@ -147,20 +145,10 @@ const AboutPage = () => {
                   </p>
                   <h2 className="display-5 fw-bold mb-6">Our story</h2>
                   <p>
-                    In 2015, one of our founders had an experience with landing
-                    pages where he realized that you can’t control your results,
-                    but only act on them. This is what inspired him and the
-                    other co-founder to build a landing page design tool which
-                    helps users build their landing pages.
+                  It all began when the Front-End Development teacher gave Lahcen & Rania the project of creating a React project to add value to the 2030 World Cup. Here’s where the story begins: they decided to create a platform for customizing t-shirts to support our favorite football team.
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas quis tortor sed neque pellentesque suscipit.
-                    Quisque finibus tristique faucibus. Pellentesque rhoncus
-                    justo ac ipsum pulvinar commodo. Nam quis hendrerit dui.
-                    Vestibulum dolor ligula, vehicula bibendum iaculis in,
-                    placerat et sapien. Maecenas in odio at quam volutpat
-                    lobortis.
+                    By Lahcen & Rania.
                   </p>
                 </div>
                 <div className="col-12 col-lg-6">
@@ -185,20 +173,18 @@ const AboutPage = () => {
                         <picture className="avatar">
                           <img
                             className="img-fluid rounded-circle"
-                            src="./assets/images/profile-small-2.jpeg"
+                            src="./assets/images/lahcen.jpg"
                             alt
                           />
                         </picture>
                         <p className="lead fw-bolder mb-0 mt-4">
-                          Jack Johnston
+                          Lahcen EZZARA
                         </p>
                         <p className="text-primary small fw-bold mb-4">
-                          Founder &amp; CEO
+                          Co-Founder &amp; CEO
                         </p>
                         <p className="text-muted">
-                          Serial angel investor and entrepreneur, Jack has
-                          founded multiple successful startups prior to
-                          TeeChroma.
+                          Artificial Intelligence & Software Engineering Student at ENSAM Casablanca, Python Passionate.
                         </p>
                         <ul className="list-unstyled d-flex align-items-center justify-content-center mb-0">
                           <li className="mx-2">
@@ -228,17 +214,16 @@ const AboutPage = () => {
                         <picture className="avatar">
                           <img
                             className="img-fluid rounded-circle"
-                            src="./assets/images/profile-small-3.jpeg"
+                            src="./assets/images/profile-small-4.jpeg"
                             alt
                           />
                         </picture>
-                        <p className="lead fw-bolder mb-0 mt-4">JP Laurent</p>
+                        <p className="lead fw-bolder mb-0 mt-4">Rania Mouhib</p>
                         <p className="text-primary small fw-bold mb-4">
-                          Executive Chairman
+                          Co-Founder &amp; CTO
                         </p>
                         <p className="text-muted">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Maecenas quis tortor sed neque pellentesque.
+                        Artificial Intelligence & Software Engineering Student at ENSAM Casablanca.
                         </p>
                         <ul className="list-unstyled d-flex align-items-center justify-content-center mb-0">
                           <li className="mx-2">
@@ -300,130 +285,9 @@ const AboutPage = () => {
                       </div>
                     </div>
                   </div>
-                  {/* / Single Team*/}
-                  {/* Single Team*/}
-                  <div className="col-12 col-md-6 col-lg-4">
-                    <div className="card rounded shadow-lg h-100">
-                      <div className="card-body d-flex align-items-center flex-column justify-content-center text-center p-5">
-                        <picture className="avatar">
-                          <img
-                            className="img-fluid rounded-circle"
-                            src="./assets/images/profile-small-5.jpeg"
-                            alt
-                          />
-                        </picture>
-                        <p className="lead fw-bolder mb-0 mt-4">
-                          Patrica Smith
-                        </p>
-                        <p className="text-primary small fw-bold mb-4">
-                          VP Marketing
-                        </p>
-                        <p className="text-muted">
-                          Nullam faucibus placerat vestibulum. Vivamus blandit
-                          risus a ligula efficitur tincidunt.
-                        </p>
-                        <ul className="list-unstyled d-flex align-items-center justify-content-center mb-0">
-                          <li className="mx-2">
-                            <a href="#" className="text-decoration-none">
-                              <i className="ri-linkedin-box-fill ri-2x" />
-                            </a>
-                          </li>
-                          <li className="mx-2">
-                            <a href="#" className="text-decoration-none">
-                              <i className="ri-facebook-box-fill ri-2x" />
-                            </a>
-                          </li>
-                          <li className="mx-2">
-                            <a href="#" className="text-decoration-none">
-                              <i className="ri-twitter-fill ri-2x" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  {/* / Single Team*/}
-                  {/* Single Team*/}
-                  <div className="col-12 col-md-6 col-lg-4">
-                    <div className="card rounded shadow-lg h-100">
-                      <div className="card-body d-flex align-items-center flex-column justify-content-center text-center p-5">
-                        <picture className="avatar">
-                          <img
-                            className="img-fluid rounded-circle"
-                            src="./assets/images/profile-small-6.jpeg"
-                            alt
-                          />
-                        </picture>
-                        <p className="lead fw-bolder mb-0 mt-4">
-                          Samanth Rowson
-                        </p>
-                        <p className="text-primary small fw-bold mb-4">
-                          Head Designer
-                        </p>
-                        <p className="text-muted">
-                          Vestibulum fermentum urna sit amet dolor rutrum, non
-                          consequat velit vehicula. Proin sed consequat diam.
-                        </p>
-                        <ul className="list-unstyled d-flex align-items-center justify-content-center mb-0">
-                          <li className="mx-2">
-                            <a href="#" className="text-decoration-none">
-                              <i className="ri-linkedin-box-fill ri-2x" />
-                            </a>
-                          </li>
-                          <li className="mx-2">
-                            <a href="#" className="text-decoration-none">
-                              <i className="ri-facebook-box-fill ri-2x" />
-                            </a>
-                          </li>
-                          <li className="mx-2">
-                            <a href="#" className="text-decoration-none">
-                              <i className="ri-twitter-fill ri-2x" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  {/* / Single Team*/}
-                  {/* Single Team*/}
-                  <div className="col-12 col-md-6 col-lg-4">
-                    <div className="card rounded shadow-lg h-100">
-                      <div className="card-body d-flex align-items-center flex-column justify-content-center text-center p-5">
-                        <picture className="avatar">
-                          <img
-                            className="img-fluid rounded-circle"
-                            src="./assets/images/profile-small-7.jpeg"
-                            alt
-                          />
-                        </picture>
-                        <p className="lead fw-bolder mb-0 mt-4">Jack Smith</p>
-                        <p className="text-primary small fw-bold mb-4">
-                          Technical Lead
-                        </p>
-                        <p className="text-muted">
-                          Sed venenatis ligula tortor, vel pharetra massa
-                          convallis a. Ut bibendum porttitor nisi ornare.
-                        </p>
-                        <ul className="list-unstyled d-flex align-items-center justify-content-center mb-0">
-                          <li className="mx-2">
-                            <a href="#" className="text-decoration-none">
-                              <i className="ri-linkedin-box-fill ri-2x" />
-                            </a>
-                          </li>
-                          <li className="mx-2">
-                            <a href="#" className="text-decoration-none">
-                              <i className="ri-facebook-box-fill ri-2x" />
-                            </a>
-                          </li>
-                          <li className="mx-2">
-                            <a href="#" className="text-decoration-none">
-                              <i className="ri-twitter-fill ri-2x" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+                  
+                  
+                  
                   {/* / Single Team*/}
                 </div>
               </div>
