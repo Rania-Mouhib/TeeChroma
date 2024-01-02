@@ -4885,11 +4885,7 @@ const HomePage = () => {
                   </div>{" "}
                   {/* / Stats*/}
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                    <a role="button">Sed lobortis nibh augue</a>, ut blandit{" "}
-                    <a role="button">lorem hendrerit non</a>. Donec finibus at
-                    lacus in efficitur nunc fringilla, dui quis vestibulum
-                    varius.
+                    At Teecroma, we're not just a platform; we're the creators of personalized football passion, born from the fusion of 3D modeling and artificial intelligence. Our mission is to redefine how fans connect with their favorite sport through a seamless and interactive space for designing and customizing football jerseys.
                   </p>
                   <a role="button" className="btn btn-success mt-4">
                     Find out more
