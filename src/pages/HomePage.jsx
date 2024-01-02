@@ -4081,8 +4081,7 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          What a great way to shave days off our next product
-                          launch!
+                          Teechroma is a game-changer! Spent hours customizing my football jersey, and the result was beyond my expectations. The attention to detail is fantastic!
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4137,8 +4136,7 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          This is great value for money when you factor in the
-                          time saved
+                          Teechroma is more than just a customization platform; it's a celebration of football passion. I've never had so much fun designing my own jersey!
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4193,8 +4191,7 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          Signed up last week - blown away at how easy it was to
-                          build our first landing page
+                          Teechroma brings football jersey design to life. Simple, fun, and the results are top-notch!
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4221,8 +4218,7 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          The one-click integration with our hosting company is
-                          a life-saver
+                          Designed my jersey effortlessly - highly recommend!
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4306,8 +4302,7 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          What a great way to shave days off our next product
-                          launch!
+                          Spent quality time customizing my football jersey, and the result is pure awesomeness!
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4418,8 +4413,7 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          Signed up last week - blown away at how easy it was to
-                          build our first landing page
+                          Impressed with the seamless integration of 3D modeling and AI on Teechroma.5 stars!
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4832,11 +4826,7 @@ const HomePage = () => {
                   </div>{" "}
                   {/* / Stats*/}
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                    <a role="button">Sed lobortis nibh augue</a>, ut blandit{" "}
-                    <a role="button">lorem hendrerit non</a>. Donec finibus at
-                    lacus in efficitur nunc fringilla, dui quis vestibulum
-                    varius.
+                    At Teecroma, we're not just a platform; we're the creators of personalized football passion, born from the fusion of 3D modeling and artificial intelligence. Our mission is to redefine how fans connect with their favorite sport through a seamless and interactive space for designing and customizing football jerseys.
                   </p>
                   <a role="button" className="btn btn-success mt-4">
                     Find out more
