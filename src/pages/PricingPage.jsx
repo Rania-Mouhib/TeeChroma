@@ -75,9 +75,10 @@ const PricingPage = () => {
                     credit card required, no commitment required. Then upgrade
                     your account after that when you're ready.
                   </p>
-                  <a className="btn btn-white mt-4 w-100 w-md-auto"
-                  role="button"
-                  onClick={() => (state.page = "customizer")}
+                  <a
+                    className="btn btn-white mt-4 w-100 w-md-auto"
+                    role="button"
+                    onClick={() => (state.page = "customizer")}
                   >
                     Start your trial
                   </a>
@@ -124,17 +125,16 @@ const PricingPage = () => {
                     </span>
                   </div>
                   <div className="f-h-20 px-4 px-md-7 d-flex justify-content-start align-items-center border-bottom">
-                  Prompts
+                    Prompts
                   </div>
                   <div className="f-h-20 px-4 px-md-7 d-flex justify-content-start align-items-center border-bottom">
                     Designs
                   </div>
-                  
+
                   <div className="f-h-20 px-4 px-md-7 d-flex justify-content-start align-items-center border-bottom">
                     Support
                   </div>
-                  
-                  
+
                   <div className="f-h-24 px-4 px-md-7 d-flex justify-content-center align-items-center"></div>
                   {/* Column Rows*/}
                 </div>
@@ -184,18 +184,15 @@ const PricingPage = () => {
                       week
                     </span>
                   </div>
-                  
+
                   <div className="f-h-20 px-4 px-md-7 d-flex justify-content-center align-items-center border-bottom">
                     <span>
                       Email <span className="d-lg-none d-inline">support</span>
                     </span>
                   </div>
-                  
-                  
+
                   <div className="f-h-24 px-4 px-md-7 d-flex justify-content-center align-items-center">
-                    <a
-                    role="button"
-                     className="btn btn-primary w-100">
+                    <a role="button" className="btn btn-primary w-100">
                       Get started
                     </a>
                   </div>
@@ -247,15 +244,14 @@ const PricingPage = () => {
                       per week
                     </span>
                   </div>
-                  
+
                   <div className="f-h-20 px-4 px-md-7 d-flex justify-content-center align-items-center border-bottom">
                     <span>
                       Email, Telephone{" "}
                       <span className="d-lg-none d-inline">support</span>
                     </span>
                   </div>
-                  
-                  
+
                   <div className="f-h-24 px-4 px-md-7 d-flex justify-content-center align-items-center">
                     <a role="button" className="btn btn-primary w-100">
                       Get started
@@ -275,7 +271,7 @@ const PricingPage = () => {
                       Our Enterprise package is custom-built per client - ideal
                       for large businesses.
                     </p>
-                    <a role="button" className="btn btn-white" role="button">
+                    <a role="button" className="btn btn-white">
                       Discuss your requirements
                     </a>
                   </div>
@@ -406,7 +402,7 @@ const PricingPage = () => {
               {/* / Company Logos*/}
             </div>
             {/* FAQs*/}
-            
+
             {/* / FAQs*/}
             {/* /Page Content */}
             {/* / Main Section*/}
