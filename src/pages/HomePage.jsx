@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 
-import heroImg from "/teechroma.png";
+import heroImg from "/hero.png";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
