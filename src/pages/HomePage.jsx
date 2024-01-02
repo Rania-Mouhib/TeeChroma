@@ -238,7 +238,75 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          role="button"
+                          href="#"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Bosch"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-1.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          href="#"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Smeg"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-2.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          href="#"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Sony"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-3.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          href="#"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Siemens"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-4.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          href="#"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Coca Cola"
@@ -252,11 +320,27 @@ const HomePage = () => {
                           </picture>
                         </a>
                       </div>
-
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          role="button"
+                          href="#"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Philips"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-6.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          href="#"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Samsung"
@@ -273,7 +357,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          role="button"
+                          href="#"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Netflix"
@@ -287,66 +371,80 @@ const HomePage = () => {
                           </picture>
                         </a>
                       </div>
-
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Coca Cola"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-5.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
-
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Samsung"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-7.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Netflix"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-8.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
-
                     </div>
                     <div className="marquee-section animation-marquee-90">
-                    <div className="mx-5 f-w-24">
+                      <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          role="button"
+                          href="#"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Bosch"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-1.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          href="#"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Smeg"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-2.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          href="#"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Sony"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-3.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          href="#"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Siemens"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-4.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          href="#"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Coca Cola"
@@ -360,11 +458,27 @@ const HomePage = () => {
                           </picture>
                         </a>
                       </div>
-
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          role="button"
+                          href="#"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Philips"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-6.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          href="#"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Samsung"
@@ -381,60 +495,7 @@ const HomePage = () => {
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Netflix"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-8.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
-                      
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Coca Cola"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-5.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
-
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Samsung"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-7.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
+                          href="#"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Netflix"
@@ -477,14 +538,13 @@ const HomePage = () => {
                     <picture className="d-block f-h-10">
                       <img
                         className="h-100 w-auto"
-                        src="../assets/images/logos/logo-9.svg"
+                        src="../assets/images/logos/FIFA.svg"
                         alt
                       />
                     </picture>
-                    <p className="text-white fs-4 fw-medium mb-2 mt-3">Fifa</p>
+                    <p className="text-white fs-4 fw-medium mb-2 mt-3">FIFA</p>
                     <p className="text-white opacity-75 text-center fs-7">
-                      blending the world's passion for football with
-                      personalized jersey customization.
+                    From pitch to pavement, TeeChroma lets fans rock their team colors in style! Kudos for showcasing creativity and bringing the fan experience beyond the stadium.
                     </p>
                   </div>
                   {/* /Integration*/}
@@ -498,7 +558,7 @@ const HomePage = () => {
                     <picture className="d-block f-h-10">
                       <img
                         className="h-100 w-auto"
-                        src="../assets/images/logos/logo-10.svg"
+                        src="../assets/images/logos/EA_Sports.svg"
                         alt
                       />
                     </picture>
@@ -506,8 +566,7 @@ const HomePage = () => {
                       EA Sports
                     </p>
                     <p className="text-white opacity-75 text-center fs-7">
-                      Infusing the spirit of football fandom into every stitch,
-                      Teecroma collaborates with EA Sports.
+                    TeeChroma's customization features are next-level! It's like building your own dream team kit, and that opens up endless possibilities for creativity and self-expression.
                     </p>
                   </div>
                   {/* /Integration*/}
@@ -521,94 +580,26 @@ const HomePage = () => {
                     <picture className="d-block f-h-10">
                       <img
                         className="h-100 w-auto"
-                        src="../assets/images/logos/logo-11.svg"
+                        src="../assets/images/logos/CAF.png"
                         alt
                       />
                     </picture>
                     <p className="text-white fs-4 fw-medium mb-2 mt-3">
-                      Adobe XD
+                      CAF
                     </p>
                     <p className="text-white opacity-75 text-center fs-7">
-                      Open your landing page with XD, sync the design directly
-                      or download as XD file.
+                    TeeChroma champions the spirit of African football! We love how it lets fans wear their hearts on their sleeves, showcasing their team colors and cultural heritage with pride.
                     </p>
                   </div>
                   {/* /Integration*/}
                   {/* Integration*/}
-                  <div
-                    className="col-12 col-sm-6 col-lg-4 d-flex flex-column align-items-center justify-content-center"
-                    data-aos="fade-in"
-                    data-aos-duration={500}
-                    data-aos-delay={300}
-                  >
-                    <picture className="d-block f-h-10">
-                      <img
-                        className="h-100 w-auto"
-                        src="../assets/images/logos/logo-12.svg"
-                        alt
-                      />
-                    </picture>
-                    <p className="text-white fs-4 fw-medium mb-2 mt-3">
-                      Netlify
-                    </p>
-                    <p className="text-white opacity-75 text-center fs-7">
-                      Convert your landing page design to HTML and host with
-                      Netlify with a click of a button.
-                    </p>
-                  </div>
-                  {/* /Integration*/}
-                  {/* Integration*/}
-                  <div
-                    className="col-12 col-sm-6 col-lg-4 d-flex flex-column align-items-center justify-content-center"
-                    data-aos="fade-in"
-                    data-aos-duration={500}
-                    data-aos-delay={400}
-                  >
-                    <picture className="d-block f-h-10">
-                      <img
-                        className="h-100 w-auto"
-                        src="../assets/images/logos/logo-13.svg"
-                        alt
-                      />
-                    </picture>
-                    <p className="text-white fs-4 fw-medium mb-2 mt-3">
-                      Dropbox
-                    </p>
-                    <p className="text-white opacity-75 text-center fs-7">
-                      Backup your TeeChroma files directly to your Dropbox
-                      account with a single action.
-                    </p>
-                  </div>
-                  {/* /Integration*/}
-                  {/* Integration*/}
-                  <div
-                    className="col-12 col-sm-6 col-lg-4 d-flex flex-column align-items-center justify-content-center"
-                    data-aos="fade-in"
-                    data-aos-duration={500}
-                    data-aos-delay={500}
-                  >
-                    <picture className="d-block f-h-10">
-                      <img
-                        className="h-100 w-auto"
-                        src="../assets/images/logos/logo-14.svg"
-                        alt
-                      />
-                    </picture>
-                    <p className="text-white fs-4 fw-medium mb-2 mt-3">
-                      Gitlab
-                    </p>
-                    <p className="text-white opacity-75 text-center fs-7">
-                      Automatically track commits, merges and pull requests with
-                      our activity feed.
-                    </p>
-                  </div>
-                  {/* /Integration*/}
+                  
                 </div>
                 <a
                   role="button"
                   className="btn btn-white d-table mx-auto mt-7 w-100 w-md-auto"
                 >
-                  More about our integrations
+                  More about our collaborations
                 </a>
               </div>
             </div>
@@ -4038,12 +4029,7 @@ const HomePage = () => {
                   <a role="button" className="btn btn-primary mb-2 mb-md-0">
                     Ready to get started?
                   </a>
-                  <a
-                    role="button"
-                    className="btn btn-link text-decoration-none text-muted ms-md-2 bg-light-hover"
-                  >
-                    Start your free trial
-                  </a>
+                  
                 </div>
               </div>
               <div className="mt-5">
@@ -4081,7 +4067,9 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          Teechroma is a game-changer! Spent hours customizing my football jersey, and the result was beyond my expectations. The attention to detail is fantastic!
+                          Teechroma is a game-changer! Spent hours customizing
+                          my football jersey, and the result was beyond my
+                          expectations. The attention to detail is fantastic!
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4136,7 +4124,9 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          Teechroma is more than just a customization platform; it's a celebration of football passion. I've never had so much fun designing my own jersey!
+                          Teechroma is more than just a customization platform;
+                          it's a celebration of football passion. I've never had
+                          so much fun designing my own jersey!
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4191,7 +4181,8 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          Teechroma brings football jersey design to life. Simple, fun, and the results are top-notch!
+                          Teechroma brings football jersey design to life.
+                          Simple, fun, and the results are top-notch!
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4302,7 +4293,8 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          Spent quality time customizing my football jersey, and the result is pure awesomeness!
+                          Spent quality time customizing my football jersey, and
+                          the result is pure awesomeness!
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4413,7 +4405,8 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          Impressed with the seamless integration of 3D modeling and AI on Teechroma.5 stars!
+                          Impressed with the seamless integration of 3D modeling
+                          and AI on Teechroma.5 stars!
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4511,7 +4504,7 @@ const HomePage = () => {
                       <picture>
                         <img
                           className="img-fluid"
-                          src="../assets/images/blog-one.jpeg"
+                          src="../assets/images/blog1.jpg"
                           alt
                         />
                       </picture>
@@ -4535,7 +4528,7 @@ const HomePage = () => {
                       <picture>
                         <img
                           className="img-fluid"
-                          src="../assets/images/blog-two.jpeg"
+                          src="../assets/images/blog2.jpg"
                           alt
                         />
                       </picture>
@@ -4559,7 +4552,7 @@ const HomePage = () => {
                       <picture>
                         <img
                           className="img-fluid"
-                          src="../assets/images/blog-three.jpeg"
+                          src="../assets/images/blog3.jpg"
                           alt
                         />
                       </picture>
@@ -4826,7 +4819,12 @@ const HomePage = () => {
                   </div>{" "}
                   {/* / Stats*/}
                   <p>
-                    At Teecroma, we're not just a platform; we're the creators of personalized football passion, born from the fusion of 3D modeling and artificial intelligence. Our mission is to redefine how fans connect with their favorite sport through a seamless and interactive space for designing and customizing football jerseys.
+                    At Teecroma, we're not just a platform; we're the creators
+                    of personalized football passion, born from the fusion of 3D
+                    modeling and artificial intelligence. Our mission is to
+                    redefine how fans connect with their favorite sport through
+                    a seamless and interactive space for designing and
+                    customizing football jerseys.
                   </p>
                   <a role="button" className="btn btn-success mt-4">
                     Find out more
