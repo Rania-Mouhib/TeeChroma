@@ -21,7 +21,9 @@ const AboutPage = () => {
                 <div className="text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto position-relative z-index-20">
                   <h1 className="display-3 fw-bold mb-3">About us</h1>
                   <p className="text-muted lead mb-0">
-                  Launched in 2023, TeeChroma is an online Customize design tool with a mission to make t-shirt designing accessible to everyone in the world.
+                    Launched in 2023, TeeChroma is an online Customize design
+                    tool with a mission to make t-shirt designing accessible to
+                    everyone in the world.
                   </p>
                 </div>
               </div>
@@ -112,15 +114,15 @@ const AboutPage = () => {
                 <div className="my-5 d-none d-md-flex align-items-start justify-content-between">
                   <div>
                     <span className="display-3 fw-bold text-primary d-block">
-                    10
+                      10
                     </span>
                     <span className="d-block fs-9 fw-bolder tracking-wide text-uppercase text-muted">
-                    COUNTRIES
+                      COUNTRIES
                     </span>
                   </div>
                   <div>
                     <span className="display-3 fw-bold text-primary d-block">
-                    80K
+                      80K
                     </span>
                     <span className="d-block fs-9 fw-bolder tracking-wide text-uppercase text-muted">
                       Customers
@@ -128,7 +130,7 @@ const AboutPage = () => {
                   </div>
                   <div>
                     <span className="display-3 fw-bold text-primary d-block">
-                    200
+                      200
                     </span>
                     <span className="d-block fs-9 fw-bolder tracking-wide text-uppercase text-muted">
                       Staff
@@ -145,11 +147,13 @@ const AboutPage = () => {
                   </p>
                   <h2 className="display-5 fw-bold mb-6">Our story</h2>
                   <p>
-                  It all began when the Front-End Development teacher gave Lahcen & Rania the project of creating a React project to add value to the 2030 World Cup. Here’s where the story begins: they decided to create a platform for customizing t-shirts to support our favorite football team.
+                    It all began when the Front-End Development teacher gave
+                    Lahcen & Rania the project of creating a React project to
+                    add value to the 2030 World Cup. Here’s where the story
+                    begins: they decided to create a platform for customizing
+                    t-shirts to support our favorite football team.
                   </p>
-                  <p>
-                    By Lahcen & Rania.
-                  </p>
+                  <p>By Lahcen & Rania.</p>
                 </div>
                 <div className="col-12 col-lg-6">
                   <picture>
@@ -181,10 +185,11 @@ const AboutPage = () => {
                           Lahcen EZZARA
                         </p>
                         <p className="text-primary small fw-bold mb-4">
-                          Co-Founder &amp; CEO
+                          Etudiant
                         </p>
                         <p className="text-muted">
-                          Artificial Intelligence & Software Engineering Student at ENSAM Casablanca, Python Passionate.
+                          Artificial Intelligence & Software Engineering Student
+                          at ENSAM Casablanca, Python Passionate.
                         </p>
                         <ul className="list-unstyled d-flex align-items-center justify-content-center mb-0">
                           <li className="mx-2">
@@ -214,16 +219,17 @@ const AboutPage = () => {
                         <picture className="avatar">
                           <img
                             className="img-fluid rounded-circle"
-                            src="./assets/images/profile-small-4.jpeg"
+                            src="./assets/images/rania.jpg"
                             alt
                           />
                         </picture>
                         <p className="lead fw-bolder mb-0 mt-4">Rania Mouhib</p>
                         <p className="text-primary small fw-bold mb-4">
-                          Co-Founder &amp; CTO
+                          Etudiante
                         </p>
                         <p className="text-muted">
-                        Artificial Intelligence & Software Engineering Student at ENSAM Casablanca.
+                          Artificial Intelligence & Software Engineering Student
+                          at ENSAM Casablanca.
                         </p>
                         <ul className="list-unstyled d-flex align-items-center justify-content-center mb-0">
                           <li className="mx-2">
@@ -253,17 +259,16 @@ const AboutPage = () => {
                         <picture className="avatar">
                           <img
                             className="img-fluid rounded-circle"
-                            src="./assets/images/profile-small-4.jpeg"
+                            src="./assets/images/loubna.jpg"
                             alt
                           />
                         </picture>
-                        <p className="lead fw-bolder mb-0 mt-4">Gary Waite</p>
+                        <p className="lead fw-bolder mb-0 mt-4">Loubna Elfaquih</p>
                         <p className="text-primary small fw-bold mb-4">
-                          Founder &amp; CTO
+                          Encadrante
                         </p>
                         <p className="text-muted">
-                          Mauris consequat sodales dolor, eu iaculis tortor
-                          efficitur vel. Mauris sed felis augue argum felis.
+                          Professeur à ENSAM Casablanca.
                         </p>
                         <ul className="list-unstyled d-flex align-items-center justify-content-center mb-0">
                           <li className="mx-2">
@@ -285,9 +290,7 @@ const AboutPage = () => {
                       </div>
                     </div>
                   </div>
-                  
-                  
-                  
+
                   {/* / Single Team*/}
                 </div>
               </div>
