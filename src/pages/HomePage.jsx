@@ -37,12 +37,13 @@ const HomePage = () => {
                   className="col-12 col-lg-6 position-relative z-index-20 text-center text-lg-start"
                   data-aos="fade-in"
                 >
-                  <h1 className="display-3 fw-bold mb-4">
-                    Design and launch landing pages faster.
+                  <h1 className="display-4 fw-bold mb-4">
+                    Own Your Look!
                   </h1>
                   <h2 className="fs-5 text-muted fw-light lh-base">
-                    Collaborate, iterate and launch landing pages through our
-                    app or locally through our NPM package.
+                    Elevate your style game with TeeChroma for the Morocco World
+                    Cup 2030! Personalize your jersey in 3D and let your
+                    creativity run wild.
                   </h2>
                   <a
                     className="text-decoration-none text-primary fw-bolder d-flex fs-7 justify-content-center justify-content-lg-start"
