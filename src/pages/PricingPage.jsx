@@ -71,9 +71,9 @@ const PricingPage = () => {
                 <div className="text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto pb-8 position-relative z-index-20">
                   <h1 className="display-3 fw-bold mb-3">Simple pricing</h1>
                   <p className="opacity-75 lead">
-                    Try Sigma for free for 30 days with full features, no credit
-                    card required, no commitment required. Then upgrade your
-                    account after that when you're ready.
+                    Try TeeChroma for free for 30 days with full features, no
+                    credit card required, no commitment required. Then upgrade
+                    your account after that when you're ready.
                   </p>
                   <a href="#" className="btn btn-white mt-4 w-100 w-md-auto">
                     Start your trial
@@ -523,7 +523,7 @@ const PricingPage = () => {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          What payment methods does Sigma accept?
+                          What payment methods does TeeChroma accept?
                         </button>
                       </h2>
                       <div

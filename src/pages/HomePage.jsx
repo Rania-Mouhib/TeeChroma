@@ -90,11 +90,9 @@ const HomePage = () => {
                   className="col-12 col-lg-6 mt-5 mt-lg-0 align-self-stretch position-relative z-index-20"
                   data-aos="fade-in"
                 >
-                  
-                    <div className="hero_img">
-                      <img src={heroImg} alt="" />
-                    </div>
-                  
+                  <div className="hero_img">
+                    <img src={heroImg} alt="" />
+                  </div>
                 </div>
                 {/* / Hero Graphic*/}
               </div>
@@ -636,8 +634,8 @@ const HomePage = () => {
                       Dropbox
                     </p>
                     <p className="text-white opacity-75 text-center fs-7">
-                      Backup your Sigma files directly to your Dropbox account
-                      with a single action.
+                      Backup your TeeChroma files directly to your Dropbox
+                      account with a single action.
                     </p>
                   </div>
                   {/* /Integration*/}
@@ -4114,8 +4112,8 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          Just amazed at how easy to use Sigma is. Really saved
-                          us a heap of time.
+                          Just amazed at how easy to use TeeChroma is. Really
+                          saved us a heap of time.
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4170,7 +4168,7 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          Spent a lot of time using Sigma the past few
+                          Spent a lot of time using TeeChroma the past few
                           weeks...love it!
                         </p>
                         <div className="d-flex align-items-center mt-2">
@@ -4226,7 +4224,8 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          Still amazed at how easy to use Sigma is...just great.
+                          Still amazed at how easy to use TeeChroma is...just
+                          great.
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4338,8 +4337,8 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          Just amazed at how easy to use Sigma is. Really saved
-                          us a heap of time.
+                          Just amazed at how easy to use TeeChroma is. Really
+                          saved us a heap of time.
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>
@@ -4394,7 +4393,7 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          Spent a lot of time using Sigma the past few
+                          Spent a lot of time using TeeChroma the past few
                           weeks...love it!
                         </p>
                         <div className="d-flex align-items-center mt-2">
@@ -4450,7 +4449,8 @@ const HomePage = () => {
                       <div className="rounded shadow-sm border f-w-76 d-flex flex-wrap flex-column px-5 pb-5 pt-7 mx-4 text-wrap position-relative h-100">
                         <i className="ri-double-quotes-l position-absolute top-n1 start-2 ri-2x opacity-10" />
                         <p className="mb-2 fw-medium fs-6">
-                          Still amazed at how easy to use Sigma is...just great.
+                          Still amazed at how easy to use TeeChroma is...just
+                          great.
                         </p>
                         <div className="d-flex align-items-center mt-2">
                           <picture>

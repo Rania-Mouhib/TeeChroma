@@ -7,7 +7,6 @@ import Footer from "../components/Footer";
 import { useSnapshot } from "valtio";
 import state from "../store";
 
-
 const AboutPage = () => {
   const snap = useSnapshot(state);
   return (
@@ -22,9 +21,9 @@ const AboutPage = () => {
                 <div className="text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto position-relative z-index-20">
                   <h1 className="display-3 fw-bold mb-3">About us</h1>
                   <p className="text-muted lead mb-0">
-                    Launched in 2017, Sigma is an online template design tool
-                    with a mission to make landing page design accessible to
-                    everyone in the world.
+                    Launched in 2017, TeeChroma is an online template design
+                    tool with a mission to make landing page design accessible
+                    to everyone in the world.
                   </p>
                 </div>
               </div>
@@ -198,7 +197,8 @@ const AboutPage = () => {
                         </p>
                         <p className="text-muted">
                           Serial angel investor and entrepreneur, Jack has
-                          founded multiple successful startups prior to Sigma.
+                          founded multiple successful startups prior to
+                          TeeChroma.
                         </p>
                         <ul className="list-unstyled d-flex align-items-center justify-content-center mb-0">
                           <li className="mx-2">

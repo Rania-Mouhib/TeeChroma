@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="border-bottom border-white-10 pb-7">
             <div className="col-12 col-md-8 col-lg-6 d-flex mx-auto flex-column align-items-center justify-content-center">
               <h2 className="fs-1 fw-bolder text-white text-center">
-                Try Sigma for free for 30 days with unlimited features.
+                Try TeeChroma for free for 30 days with unlimited features.
               </h2>
               <a
                 href="#"
@@ -36,10 +36,10 @@ const Footer = () => {
             >
               {/* Logo SVG Icon*/}
               <span className="f-w-7 d-block text-success me-2">
-                <img src="logo.png" alt="TeeChroma Logo" />
+                <img src="logo-white.png" alt="TeeChroma Logo" />
               </span>
               {/*/ Logo SVG Icon */}
-              <span className="fw-bold">Sigma</span>
+              <span className="fw-bold">TeeChroma</span>
             </a>
             {/* /Footer Logo*/}
             {/* Footer socials*/}
