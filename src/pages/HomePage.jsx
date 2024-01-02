@@ -37,9 +37,10 @@ const HomePage = () => {
                   className="col-12 col-lg-6 position-relative z-index-20 text-center text-lg-start"
                   data-aos="fade-in"
                 >
-                  <h1 className="display-4 fw-bold mb-4">
-                    Own Your Look!
-                  </h1>
+                  
+                  <h1 className="head-text">
+                LET'S <br className="xl:block hidden" /> DO IT.
+              </h1>
                   <h2 className="fs-5 text-muted fw-light lh-base">
                     Elevate your style game with TeeChroma for the Morocco World
                     Cup 2030! Personalize your jersey in 3D and let your
