@@ -4826,7 +4826,7 @@ const HomePage = () => {
                   </div>{" "}
                   {/* / Stats*/}
                   <p>
-                    At Teecroma, we're not just a platform; we're the creators of personalized football passion, born from the fusion of 3D modeling and artificial intelligence. Our mission is to redefine how fans connect with their favorite sport through a seamless and interactive space for designing and customizing football jerseys.
+                    At Teechroma, we're not just a platform; we're the creators of personalized football passion, born from the fusion of 3D modeling and artificial intelligence. Our mission is to redefine how fans connect with their favorite sport through a seamless and interactive space for designing and customizing football jerseys.
                   </p>
                   <a role="button" className="btn btn-success mt-4">
                     Find out more
@@ -4837,7 +4837,7 @@ const HomePage = () => {
                 <picture className="d-table mx-auto mt-5 col-12 col-sm-10 position-relative z-index-20">
                   <img
                     className="img-fluid d-table mx-auto"
-                    src="../assets/images/team-photo.png"
+                    src="../assets/images/team-photo1.png"
                     alt="HTML Bootstrap Template by Pixel Rocket"
                   />
                 </picture>
