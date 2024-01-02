@@ -597,7 +597,7 @@ const HomePage = () => {
                   role="button"
                   className="btn btn-white d-table mx-auto mt-7 w-100 w-md-auto"
                 >
-                  More about our collaborations
+                  More about our collaborations →
                 </a>
               </div>
             </div>
