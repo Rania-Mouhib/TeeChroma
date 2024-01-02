@@ -37,10 +37,9 @@ const HomePage = () => {
                   className="col-12 col-lg-6 position-relative z-index-20 text-center text-lg-start"
                   data-aos="fade-in"
                 >
-                  
                   <h1 className="head-text">
-                LET'S <br className="xl:block hidden" /> DO IT.
-              </h1>
+                    LET'S <br className="xl:block hidden" /> DO IT.
+                  </h1>
                   <h2 className="fs-5 text-muted fw-light lh-base">
                     Elevate your style game with TeeChroma for the Morocco World
                     Cup 2030! Personalize your jersey in 3D and let your
@@ -62,7 +61,7 @@ const HomePage = () => {
                       role="button"
                       onClick={() => (state.page = "customizer")}
                     >
-                      Get started
+                      Start Customizing
                     </a>
                     <a
                       role="button"
@@ -74,15 +73,15 @@ const HomePage = () => {
                   <ul className="list-unstyled d-none d-md-flex align-items-center small text-muted mt-3 pt-1 fw-medium fs-9 justify-content-center justify-content-lg-start">
                     <li className="me-4 d-flex align-items-center">
                       <i className="ri-checkbox-circle-fill text-success ri-lg me-1" />{" "}
-                      No credit card required
+                      Create your own jersey
                     </li>
                     <li className="me-4 d-flex align-items-center">
                       <i className="ri-checkbox-circle-fill text-success ri-lg me-1" />{" "}
-                      Cancel anytime
+                      Change anytime
                     </li>
                     <li className="me-4 d-flex align-items-center">
                       <i className="ri-checkbox-circle-fill text-success ri-lg me-1" />{" "}
-                      30 day free trial
+                      Try It Risk-Free
                     </li>
                   </ul>
                 </div>
@@ -242,74 +241,6 @@ const HomePage = () => {
                           role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
-                          title="Bosch"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-1.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Smeg"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-2.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Sony"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-3.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Siemens"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-4.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
                           title="Coca Cola"
                         >
                           <picture>
@@ -321,23 +252,7 @@ const HomePage = () => {
                           </picture>
                         </a>
                       </div>
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Philips"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-6.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
+
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
@@ -372,76 +287,7 @@ const HomePage = () => {
                           </picture>
                         </a>
                       </div>
-                    </div>
-                    <div className="marquee-section animation-marquee-90">
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Bosch"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-1.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Smeg"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-2.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Sony"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-3.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
-                      <div className="mx-5 f-w-24">
-                        <a
-                          className="d-block"
-                          role="button"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Siemens"
-                        >
-                          <picture>
-                            <img
-                              className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-4.svg"
-                              alt
-                            />
-                          </picture>
-                        </a>
-                      </div>
+
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
@@ -459,23 +305,115 @@ const HomePage = () => {
                           </picture>
                         </a>
                       </div>
+
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
                           role="button"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
-                          title="Philips"
+                          title="Samsung"
                         >
                           <picture>
                             <img
                               className="img-fluid d-table mx-auto"
-                              src="../assets/images/logos/logo-6.svg"
+                              src="../assets/images/logos/logo-7.svg"
                               alt
                             />
                           </picture>
                         </a>
                       </div>
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          role="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Netflix"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-8.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+
+                    </div>
+                    <div className="marquee-section animation-marquee-90">
+                    <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          role="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Coca Cola"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-5.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          role="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Samsung"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-7.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          role="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Netflix"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-8.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+                      
+                      <div className="mx-5 f-w-24">
+                        <a
+                          className="d-block"
+                          role="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Coca Cola"
+                        >
+                          <picture>
+                            <img
+                              className="img-fluid d-table mx-auto"
+                              src="../assets/images/logos/logo-5.svg"
+                              alt
+                            />
+                          </picture>
+                        </a>
+                      </div>
+
                       <div className="mx-5 f-w-24">
                         <a
                           className="d-block"
@@ -526,7 +464,8 @@ const HomePage = () => {
                   Team Up with Your Favorites
                 </h3>
                 <p className="text-white opacity-50 text-center">
-                Join forces and elevate your Teechroma football jersey customization with collaborations from the industry's best.
+                  Join forces and elevate your Teechroma football jersey
+                  customization with collaborations from the industry's best.
                 </p>
                 <div className="row gx-10 gy-7 mt-4">
                   {/* Integration*/}
@@ -544,7 +483,8 @@ const HomePage = () => {
                     </picture>
                     <p className="text-white fs-4 fw-medium mb-2 mt-3">Fifa</p>
                     <p className="text-white opacity-75 text-center fs-7">
-                      blending the world's passion for football with personalized jersey customization.
+                      blending the world's passion for football with
+                      personalized jersey customization.
                     </p>
                   </div>
                   {/* /Integration*/}
@@ -566,7 +506,8 @@ const HomePage = () => {
                       EA Sports
                     </p>
                     <p className="text-white opacity-75 text-center fs-7">
-                      Infusing the spirit of football fandom into every stitch, Teecroma collaborates with EA Sports.
+                      Infusing the spirit of football fandom into every stitch,
+                      Teecroma collaborates with EA Sports.
                     </p>
                   </div>
                   {/* /Integration*/}
