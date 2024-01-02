@@ -4507,7 +4507,7 @@ const HomePage = () => {
                       </picture>
                       <div className="card-body p-4 p-lg-5">
                         <p className="card-title fw-medium mb-4">
-                          The ultimate guide to event project management
+                          Marcus Rashford's Philanthropic Triumphs Reach New Heights
                         </p>
                         <a
                           role="button"
@@ -4531,7 +4531,7 @@ const HomePage = () => {
                       </picture>
                       <div className="card-body p-4 p-lg-5">
                         <p className="card-title fw-medium mb-4">
-                          How to use Agile to implement Scrum method
+                          Darwin Nunez Emerges as Football's Rising Star
                         </p>
                         <a
                           role="button"
@@ -4555,7 +4555,7 @@ const HomePage = () => {
                       </picture>
                       <div className="card-body p-4 p-lg-5">
                         <p className="card-title fw-medium mb-4">
-                          What is the best software version control?
+                          France vs Argentina: Football Giants Clash in Riveting Showdown
                         </p>
                         <a
                           role="button"
