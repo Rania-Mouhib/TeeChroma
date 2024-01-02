@@ -519,13 +519,13 @@ const HomePage = () => {
             <div className="bg-dark py-8" data-aos="fade-in">
               <div className="container py-4">
                 <p className="mb-0 text-center small fw-bolder tracking-wider text-uppercase text-orange">
-                  Integrations
+                  TEECHROMA COLLABORATIONS
                 </p>
                 <h3 className="text-white text-center mt-3 fs-1 mb-3 fw-bold">
-                  Integrate with your favourite tools
+                  Team Up with Your Favorites
                 </h3>
                 <p className="text-white opacity-50 text-center">
-                  Sync, share and download your work on the systems below.
+                Join forces and elevate your Teechroma football jersey customization with collaborations from the industry's best.
                 </p>
                 <div className="row gx-10 gy-7 mt-4">
                   {/* Integration*/}
@@ -541,10 +541,9 @@ const HomePage = () => {
                         alt
                       />
                     </picture>
-                    <p className="text-white fs-4 fw-medium mb-2 mt-3">Figma</p>
+                    <p className="text-white fs-4 fw-medium mb-2 mt-3">Fifa</p>
                     <p className="text-white opacity-75 text-center fs-7">
-                      Sync your landing page with Figma and open the design as a
-                      Figma file.
+                      blending the world's passion for football with personalized jersey customization.
                     </p>
                   </div>
                   {/* /Integration*/}
@@ -563,11 +562,10 @@ const HomePage = () => {
                       />
                     </picture>
                     <p className="text-white fs-4 fw-medium mb-2 mt-3">
-                      Sketch
+                      EA Sports
                     </p>
                     <p className="text-white opacity-75 text-center fs-7">
-                      Send your designs to Sketch, open the design directly or
-                      download as Sketch file.
+                      Infusing the spirit of football fandom into every stitch, Teecroma collaborates with EA Sports.
                     </p>
                   </div>
                   {/* /Integration*/}
