@@ -63,12 +63,6 @@ const HomePage = () => {
                     >
                       Start Customizing
                     </a>
-                    <a
-                      role="button"
-                      className="btn btn-link text-decoration-none text-muted ms-2 bg-light-hover"
-                    >
-                      Start free trial
-                    </a>
                   </div>
                   <ul className="list-unstyled d-none d-md-flex align-items-center small text-muted mt-3 pt-1 fw-medium fs-9 justify-content-center justify-content-lg-start">
                     <li className="me-4 d-flex align-items-center">
@@ -544,7 +538,9 @@ const HomePage = () => {
                     </picture>
                     <p className="text-white fs-4 fw-medium mb-2 mt-3">FIFA</p>
                     <p className="text-white opacity-75 text-center fs-7">
-                    From pitch to pavement, TeeChroma lets fans rock their team colors in style! Kudos for showcasing creativity and bringing the fan experience beyond the stadium.
+                      From pitch to pavement, TeeChroma lets fans rock their
+                      team colors in style! Kudos for showcasing creativity and
+                      bringing the fan experience beyond the stadium.
                     </p>
                   </div>
                   {/* /Integration*/}
@@ -566,7 +562,9 @@ const HomePage = () => {
                       EA Sports
                     </p>
                     <p className="text-white opacity-75 text-center fs-7">
-                    TeeChroma's customization features are next-level! It's like building your own dream team kit, and that opens up endless possibilities for creativity and self-expression.
+                      TeeChroma's customization features are next-level! It's
+                      like building your own dream team kit, and that opens up
+                      endless possibilities for creativity and self-expression.
                     </p>
                   </div>
                   {/* /Integration*/}
@@ -584,16 +582,16 @@ const HomePage = () => {
                         alt
                       />
                     </picture>
-                    <p className="text-white fs-4 fw-medium mb-2 mt-3">
-                      CAF
-                    </p>
+                    <p className="text-white fs-4 fw-medium mb-2 mt-3">CAF</p>
                     <p className="text-white opacity-75 text-center fs-7">
-                    TeeChroma champions the spirit of African football! We love how it lets fans wear their hearts on their sleeves, showcasing their team colors and cultural heritage with pride.
+                      TeeChroma champions the spirit of African football! We
+                      love how it lets fans wear their hearts on their sleeves,
+                      showcasing their team colors and cultural heritage with
+                      pride.
                     </p>
                   </div>
                   {/* /Integration*/}
                   {/* Integration*/}
-                  
                 </div>
                 <a
                   role="button"
@@ -4029,7 +4027,6 @@ const HomePage = () => {
                   <a role="button" className="btn btn-primary mb-2 mb-md-0">
                     Ready to get started?
                   </a>
-                  
                 </div>
               </div>
               <div className="mt-5">
